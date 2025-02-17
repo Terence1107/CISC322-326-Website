@@ -1,0 +1,50 @@
+.assignment-card {
+    position: relative;
+    width: 150px;
+    height: 130px;
+    background: white;
+    border: 2px solid #a54a4a;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+  }
+  
+  .assignment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .assignment-overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #a54a4a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: top 0.3s ease-in-out;
+  }
+  
+  .assignment-card:hover .assignment-overlay {
+    top: 0;
+  }
+  
+  .assignment-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .assignment-link:hover {
+    text-decoration: underline;
+  }
+
+  .armbaymax-webp {
+    width: 30px; /* Adjust size */
+  }

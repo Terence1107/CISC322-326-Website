@@ -1,0 +1,15 @@
+
+.assignment-list {
+  margin: 30px auto;
+  max-width: 900px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}

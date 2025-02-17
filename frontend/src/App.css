@@ -1,38 +1,31 @@
-.App {
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #faf6f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app-header {
+  background-color: #a54a4a;
   color: white;
+  padding: 20px;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
 }
 
-.App-link {
-  color: #61dafb;
+.baymax-img {
+  position: fixed;
+  bottom: -50px; /* Start slightly below screen */
+  right: -10px; /* Slightly off-screen */
+  width: 150px; /* Adjust size */
+  transition: bottom 0.5s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.baymax-img:hover {
+  bottom: 0; /* Baymax slides in when hovered */
 }
