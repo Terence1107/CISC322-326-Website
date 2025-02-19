@@ -8,13 +8,15 @@ body {
 }
 
 .app-header {
-  background-color: #a54a4a;
+  /*background-color: #a54a4a;*/
+  background: linear-gradient(to right, #a54a4a, #880e4f);
   color: white;
   padding: 20px;
-  font-size: 1.8em;
+  font-size: 2rem;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   
 }
 
