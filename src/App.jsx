@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./App.css";
 import AssignmentList from "./Components/AssignmentList";
+import ProfileCircles from "./Components/ProfileCircles";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         </header>
         <main>
           <AssignmentList />
+          <ProfileCircles />
         </main>
         <img src="baymax.png" alt="Baymax" className="baymax-img" />
       </div>

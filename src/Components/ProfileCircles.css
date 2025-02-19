@@ -1,0 +1,54 @@
+.profile-circles-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .profile-circles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    max-width: 800px; 
+    width: 100%;
+  }
+  
+  .profile-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer; 
+    position: relative;
+  }
+  
+  .profile-circle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgba(165, 74, 74, 0.3);
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-circle p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .profile-circle:hover {
+    transform: translateY(-10px);
+    
+  }
+
+  .copied-message {
+    position: absolute;
+    top: -10px;
+    background-color: #a54a4a;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 0.9;
+  }
