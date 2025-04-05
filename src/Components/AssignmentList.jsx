@@ -5,7 +5,7 @@ import "./AssignmentList.css"
 const assignments = [
   { id: 1, title: "Assignment 1", description: "Conceptual Architecture Report", report: "Big_Hero_6_A1_Report.pdf", presentation: "Big_Hero_6_Presentation.pdf"  },
   { id: 2, title: "Assignment 2", description: "Concrete Architecture Report", report: "CISC 322 a2.pdf", presentation: "BigHero6_Concrete_Architecture.pdf"  },
-  { id: 3, title: "Assignment 3", description: "Proposal for Enhancement Report", report: "#", presentation: "#"  }
+  { id: 3, title: "Assignment 3", description: "Proposal for Enhancement Report", report: "CISC 322 A3.pdf", presentation: "BigHero6_Enhancement.pdf"  }
 ];
 
 const AssignmentList = () => {
